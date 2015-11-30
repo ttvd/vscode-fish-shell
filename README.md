@@ -1,10 +1,12 @@
 # Fish shell syntax highlighting for Visual Studio code
 
+![Visual Studio Code Fish Shell Screenshot](http://i.imgur.com/l2rILYE.png)
+
 ## Installing
-* Copy project to vscode extensions folder 
-    * On Mac OS X: `$HOME/.vscode/extensions` 
-    * On Linux: `$HOME/.vscode/extensions` 
-    * On Windows: `%USERPROFILE%\.vscode\extensions` 
+* Copy project to vscode extensions folder
+    * On Mac OS X: `$HOME/.vscode/extensions`
+    * On Linux: `$HOME/.vscode/extensions`
+    * On Windows: `%USERPROFILE%\.vscode\extensions`
 
 ## Syntax highlighting
 * This project uses [fish.tmLanguage](https://github.com/l15n/fish-tmbundle/blob/master/Syntaxes/fish.tmLanguage), taken from [fish-tmbundle](https://github.com/l15n/fish-tmbundle), (c) 2014 Leonard Chin, MIT License.
