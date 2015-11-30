@@ -1,0 +1,51 @@
+{
+	"name": "fish-shell",
+	"displayName": "Fish shell language support",
+	"description": "Extension for Visual Studio Code which provides support for Fish shell language.",
+	"version": "0.1.1",
+	"publisher": "ttvd",
+	"categories": [
+		"Languages"
+	],
+	"license": "MIT License",
+	"icon": "icon.png",
+	"bugs": {
+		"url": "https://github.com/ttvd/vscode-fish-shell/issues"
+	},
+	"homepage": "https://github.com/ttvd/vscode-fish-shell/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ttvd/vscode-fish-shell.git"
+	},
+	"galleryBanner": {
+		"color": "#5c2d91",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"keywords": [
+		"fish",
+		"shell"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "fish",
+				"aliases": [
+					"fish"
+				],
+				"extensions": [
+					".fish"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "fish",
+				"scopeName": "source.fish",
+				"path": "./syntaxes/fish.tmLanguage"
+			}
+		]
+	}
+}
