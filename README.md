@@ -1,4 +1,4 @@
-# Fish shell syntax highlighting for Visual Studio code
+# Fish shell syntax highlighting for Visual Studio Code
 
 ![Visual Studio Code Fish Shell Screenshot](http://i.imgur.com/l2rILYE.png)
 
